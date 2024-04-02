@@ -1,5 +1,5 @@
 {
-  "name": "parse-smtp-adapter",
+  "name": "parse-mail-smtp-adapter",
   "version": "1.0.0",
   "description": "Parse Server Mail Adapter for basic SMTP",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "repository": "https://github.com/aclec/parse-smtp-adapter.git",
+  "repository": "https://github.com/aclec/parse-mail-smtp-adapter.git",
   "author": "aclec",
   "license": "MIT",
   "private": false,

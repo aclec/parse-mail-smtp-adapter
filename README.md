@@ -6,8 +6,8 @@ Parse Server Mail Adapter for basic SMTP
 Install npm module in your parse server project
 
 ```sh
-$ npm install --save parse-smtp-adapter
-$ yarn add parse-smtp-adapter
+$ npm install --save parse-mail-smtp-adapter
+$ yarn add parse-mail-smtp-adapter
 ```
 
 ### Use
@@ -33,7 +33,7 @@ let api = new ParseServer({
     port: APP_PORT,
     //This is the config for email adapter
     emailAdapter: {
-        module: "parse-smtp-adapter",
+        module: "parse-mail-smtp-adapter",
         options: {
 
             nodeMailerOptions: {
