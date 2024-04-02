@@ -1,0 +1,32 @@
+{
+  "name": "parse-smtp-adapter",
+  "version": "1.0.0",
+  "description": "Parse Server Mail Adapter for basic SMTP",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/aclec/parse-smtp-adapter.git",
+  "author": "aclec",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  },
+  "keywords": [
+    "parse",
+    "mail",
+    "smtp",
+    "adapter",
+    "parse-server"
+  ],
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "@types/parse": "^3.0.9",
+    "typescript": "^5.4.3"
+  }
+}
