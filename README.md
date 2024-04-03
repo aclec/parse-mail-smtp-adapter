@@ -74,8 +74,7 @@ Parse.Cloud.sendEmail({
     to: "user@email.address",
     subject: "my Subejct",
     html: "",
-    text: "", // Email Text
-    data: {} // data gives to ejs
+    text: "",
 });
 ```
 
